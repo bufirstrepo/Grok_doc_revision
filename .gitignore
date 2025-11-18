@@ -1,0 +1,16 @@
+# Generated
+cases_17k.jsonl
+case_index.faiss
+audit.db
+audit_chain.jsonl
+merkle.txt
+
+# Python
+__pycache__/
+venv/
+*.pyc
+
+# Large models
+models/
+*.bin
+*.safetensors
