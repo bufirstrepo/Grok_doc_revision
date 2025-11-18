@@ -1,0 +1,14 @@
+from sentence_transformers import SentenceTransformer
+import faiss
+import json
+import numpy as np
+
+embedder = SentenceTransformer('all-MiniLM-L6-v2')
+cases = []  # Load your 17k JSONL
+embeddings = embedder.encode([json.dumps(c) for c in cases])
+np.save("case_embeddings.npy", embeddings)
+
+d = embeddings.shape[1]
+index = faiss.IndexFlatL2(d)
+index.add(embeddings)
+faiss.write_index(index, "case_index.faiss")
