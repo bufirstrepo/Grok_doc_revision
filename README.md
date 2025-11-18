@@ -1,2 +1,20 @@
-# Grok_doc_revision
-Grok Doc revision: HIPAA-native, zero-cloud, remote-execution medical AI. Spoken command → local DGX inference → blockchain + zk-proof log. consensus in 3 seconds.
+# Grok Doc Revision
+
+HIPAA-native, zero-cloud medical AI for hospitals.  
+Doctor's phone app → hospital WiFi → office DGX Spark → local inference + log in <5s.  
+
+## Quick Start
+1. Install: `pip install -r requirements.txt`
+2. Run: `streamlit run app.py`
+3. Hardware: DGX Spark or equivalent (128GB VRAM min)
+
+## Features
+- Local-only (no API calls)
+- Hospital WiFi lock
+- MRN binding
+- Immutable audit log
+- Bayesian + LLM reasoning
+
+Licensed under MIT with clinical/commercial restriction (see LICENSE).
+
+Contact: @ohio_dino for pilots or partnership.
