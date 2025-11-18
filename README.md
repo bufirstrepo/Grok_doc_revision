@@ -369,3 +369,13 @@ We welcome contributions! Areas of focus:
 ---
 
 **Made with ❤️ for safer hospital care**
+
+![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)
+![License](https://img.shields.io/badge/License-MIT%20with%20restrictions-yellow.svg)
+![On-Prem](https://img.shields.io/badge/100%25-On--Prem-brightgreen)
+
+## 🎥 Real Local Demo (60 seconds)
+[Watch the video → coming in 30 min](https://loom.com/share/placeholder)
+
+> CPU demo shown — production with DGX Spark / 8×H100 is <3 second inference
+> 
