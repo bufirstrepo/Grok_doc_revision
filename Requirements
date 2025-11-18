@@ -1,0 +1,36 @@
+# Core ML/AI libraries
+torch>=2.0.0
+transformers>=4.35.0
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.4  # Use faiss-gpu if you have CUDA
+
+# Bayesian inference
+pymc>=5.10.0
+arviz>=0.17.0
+scipy>=1.11.0
+
+# High-performance inference (optional, for production)
+vllm>=0.2.0  # Requires CUDA, comment out for CPU-only testing
+
+# Web framework
+streamlit>=1.28.0
+
+# Data handling
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Utilities
+requests>=2.31.0
+python-dateutil>=2.8.2
+
+# Database
+# sqlite3 is built into Python
+
+# Optional: Quantization support
+# autoawq  # For AWQ quantized models
+# auto-gptq  # For GPTQ quantized models
+
+# Development/testing (optional)
+# pytest>=7.4.0
+# black>=23.0.0
+# flake8>=6.0.0
